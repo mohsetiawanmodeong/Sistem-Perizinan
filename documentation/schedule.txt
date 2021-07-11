@@ -1,0 +1,51 @@
+Pengembangan Aplikasi Layanan Satu Atap Perijinan Dinas Kelautan Dan Perikanan Sulawesi Utara
+
+Login
+User : Perusahaan yang mau mengajukan perjinan
+Admin : 1. Bidang RPL
+	2. Bidang Perikanan Tangkap
+Kepala dinas : Semua Akses
+
+Menu :
+1. Home
+2. Bidang PRL
+	- LP
+	- ijin Reklamasi
+	- Belum Tau Namanya
+3. Bidang Perikanan Tangkap
+	- Ijin Pengajuan Kapal Baru
+	- Belum Tau Namanya
+4. Bidang (Belum Tau Namanya)
+	-
+	-
+Login
+	- Login
+	- Register User
+		-Regist memakai email dan Pas dan username di kirim dari email
+
+Footer
+Alamat Kontak Sosmed dll
+
+Role Aplikasi Perijinan :
+	1. Ijin Rekmamasi
+		di dlm halaman ijin reklamasi ada dua tombol 
+			1. dwnload pdf proposal pengajuan izin reklamasi Pantai
+			2. Ajukan Izin
+				Pengembang Kirim proposal ke aplikasi dan di proses oleh admin
+					-Form : Nama Perusahaan
+						Nama Penanggung Jawab 
+						NPWP
+						Alamat
+						Tanggal Submit
+						No telepon
+						submit PDF
+						setiap setiap pengajuan ada ID yang bisa mengecek apakah pengajuan kita sudah di proses atau tidak
+
+Alur kerja Aplikasi :
+	1. Admin Bisa check data dan dwnload proposal perizinan.
+	2. Admin Bisa Feedback ke perusahaan kalau data di tolak atau di revisi.
+	3. User perusahaan Bisa check melalui id melihat status dari proposal yang di masukan.					
+						
+
+				
+		

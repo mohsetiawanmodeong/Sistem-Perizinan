@@ -1,0 +1,13 @@
+Login : localhost/perizinan
+
+Administrator
+username        : admin
+password        : admin
+
+Kabag
+username        : testkabag
+password        : admin
+
+Administration
+username        : user
+password        : admin
