@@ -25,6 +25,8 @@ class Dashboard extends CI_Controller
             'titles'	=> "Dashboard User",
             'setting'   => $this->Dashboard->viewAll('*','tbl_setting')->result_array(),
             'user'	    => $this->Dashboard->viewWhere('tbl_users','id', $this->session->userdata('id'))->result_array(),
+            'perusahaan'=> $this->Dashboard->viewAll('*','tbl_perusahaan')->num_rows(),
+            'perizinan' => $this->Dashboard->viewAll('*','tbl_perizinan')->num_rows(),
             'dashboard'	=> true,
             'breadcumb'	=> "Dashboard",
             'view'		=> "v_Dashboard"

@@ -28,7 +28,7 @@ class DashboardAdmin extends CI_Controller
             'setting'   => $this->Dashboard->viewAll('*','tbl_setting')->result_array(),
             'headtab'   => 'Catatan Pengajuan Perizinan',
             'home'	    => true,
-            'breadcumb'	=> "Home User",
+            'breadcumb'	=> "Home Administrasi",
             'view'		=> "v_DashboardAdmin"
         ];
         $this->load->view("index", $data);

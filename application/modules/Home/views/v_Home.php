@@ -75,6 +75,51 @@
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary"><?= 'Perizinan' ;?></h6>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <div class="x_content">
+                                <div id="alert-message">
+                                    <div class="center"><strong><?= $this->session->flashdata('message'); ?></strong>
+                                    </div>
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="x_panel">
+                                                    <div class="x_content">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12 text-center">
+                                                                        <b>
+                                                                            <a href="<?= base_url('Home/DownloadTemplates');?>"
+                                                                                target="_blank">
+                                                                                <i class="fa fa-download"></i> Template
+                                                                                Perizinan
+                                                                            </a>
+                                                                        </b>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                             <h6 class="m-0 font-weight-bold text-primary"><?= $headtab ;?></h6>
                         </div>
                         <!-- Card Body -->

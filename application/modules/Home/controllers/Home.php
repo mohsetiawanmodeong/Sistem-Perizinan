@@ -164,6 +164,13 @@ class Home extends CI_Controller
         }
     }
 
+    // Download Download Templates
+    public function DownloadTemplates()
+    {
+        $this->load->helper('download');
+        force_download('document/templates/templates.pdf', NULL);
+    }
+    
     // Download Berkas
     public function DownloadBerkas($id=0)
     {

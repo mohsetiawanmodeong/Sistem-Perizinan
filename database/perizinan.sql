@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 11, 2021 at 02:33 AM
+-- Generation Time: Jul 17, 2021 at 03:47 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.21
 
@@ -71,7 +71,8 @@ CREATE TABLE `tbl_pengajuan` (
 
 INSERT INTO `tbl_pengajuan` (`id_pengajuan`, `id_perizinan`, `tgl_pengajuan`, `id_perusahaan`, `id_user`, `tgl_disetujui`, `id_admin`, `id_kabag`, `id_status`, `nama_file`, `catatan`) VALUES
 (1, 1, '2021-07-10', 1, 4, '2021-07-10', 2, 0, 2, '', 'Kurang Jelas Update'),
-(2, 2, '2021-07-10', 1, 4, '2021-07-11', 2, 3, 3, 'Erwan_PWL_UP_200_juta_(THN)1.pdf', 'Lengkapi Document Yang Benar');
+(2, 2, '2021-07-10', 1, 4, '2021-07-11', 2, 3, 3, 'Erwan_PWL_UP_200_juta_(THN)1.pdf', 'Lengkapi Document Yang Benar'),
+(3, 3, '2021-07-16', 1, 4, '0000-00-00', 2, 0, 2, 'Approve_Document_-_Nama_Perusahaan_PT__Aplikasi_Test_SajaTanggal_2021-07-11_id_2.pdf', '');
 
 -- --------------------------------------------------------
 
@@ -89,10 +90,13 @@ CREATE TABLE `tbl_perizinan` (
 --
 
 INSERT INTO `tbl_perizinan` (`id_perizinan`, `nama_perizinan`) VALUES
-(1, 'Ijin Reklamasi'),
-(2, 'Ijin Pengajuan Kapal Baru'),
-(3, 'Ijin RPL'),
-(4, 'Ijin Perikanan Tangkap');
+(1, 'Bidang PRL'),
+(2, 'Ijin LP'),
+(3, 'Ijin Reklamasi Pantai'),
+(4, 'sub menu'),
+(5, 'Bidang PT'),
+(6, 'sub menu'),
+(7, 'sub menu');
 
 -- --------------------------------------------------------
 
@@ -280,13 +284,13 @@ ALTER TABLE `tbl_berkas`
 -- AUTO_INCREMENT for table `tbl_pengajuan`
 --
 ALTER TABLE `tbl_pengajuan`
-  MODIFY `id_pengajuan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_pengajuan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tbl_perizinan`
 --
 ALTER TABLE `tbl_perizinan`
-  MODIFY `id_perizinan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_perizinan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `tbl_perusahaan`
